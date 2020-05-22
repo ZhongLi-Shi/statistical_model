@@ -13,8 +13,8 @@ $L_i = \hat{y_i}^{y_i}(1-\hat{y_i})^{1-y_i}$
 对所有的样本来说，构造一个极大似然函数，并使之取值最大,则有似然函数为:  
 $p = \prod \limits_iL_i$  
 两边取对数有:  
-$lnp=\sum \limits_iy_iln\hat{y_i} + (1-y_i)ln(1-\hat(y_i))$  
+$lnp=\sum \limits_iy_iln\hat{y_i} + (1-y_i)ln(1-\hat{y_i})$  
 添加一个符号改变求最大为求最小,因此损失函数就为:  
-$L = -\sum \limits_{i}y_iln\hat{y_i} + (1-y_i)ln(1-\hat(y_i))$  
+$L = -\sum \limits_{i}y_iln\hat{y_i} + (1-y_i)ln(1-\hat{y_i})$  
   
 在具体的实现上，注意到会存在对数为0的情况，因此代码中在求损失值时，添加了一个极小值$\epsilon=1e-32$  
