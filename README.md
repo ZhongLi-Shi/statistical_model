@@ -1,5 +1,5 @@
 # statistical_model  
-基于torch.autograd来实现sklearn里的一些经典的模型  
+基于torch.autograd来实现sklearn里的一些经典的模型，接口尽量与sklearn一致  
 主要用于自己加强理解基础，尽量将数学过程都理解清楚  
 预计实现的模型如下：  
 #### 1. Logistic Regression
