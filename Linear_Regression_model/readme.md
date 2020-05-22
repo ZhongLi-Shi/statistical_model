@@ -4,4 +4,4 @@
 线性方程仍然是: $f(x) = w^Tx + b$, 没有激活函数。
 
 损失函数: (基于最小二乘法):  
-$L = \frac{1}{n}\sum \limits_i(\hat(y_i) - y_i)^2$
+$L = \frac{1}{m}\sum \limits_i^m(\hat{y_i} - y_i)^2$
