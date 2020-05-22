@@ -12,4 +12,6 @@ $L = \frac{1}{m}(\sum \limits_i^m(\hat{y_i} - y_i)^2 + \lambda \sum \limits_k|w_
 ### Lasso-Classifier
 $L = -\sum \limits_{i}(y_iln\hat{y_i} + (1-y_i)ln(1-\hat{y_i})) + \lambda \sum \limits_k|w_k|$
 ### Ridge-Classifier  
-$L = -\sum \limits_{i}(y_iln\hat{y_i} + (1-y_i)ln(1-\hat{y_i})) + \lambda \sum \limits_k|w_k|^2$
+$L = -\sum \limits_{i}(y_iln\hat{y_i} + (1-y_i)ln(1-\hat{y_i})) + \lambda \sum \limits_k|w_k|^2$  
+
+对比sklearn的模型，分类器效果一致，回归器稍微差一点
