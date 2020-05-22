@@ -1,2 +1,2 @@
 # Logistical Regression
-$$f(x) = wx+b$$
+$f(x) = wx+b$
